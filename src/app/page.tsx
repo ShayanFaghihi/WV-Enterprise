@@ -22,21 +22,21 @@ export default function Home() {
         <div className="absolute inset-0 opacity-50">
           <div className="absolute inset-0 animate-scroll-1">
             <img
-              src="/images/banner/Pic-1.jpg"
+              src="images/banner/Pic-1.jpg"
               alt="Infrastructure Background 1"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="absolute inset-0 animate-scroll-2">
             <img
-              src="/images/banner/Pic-2.jpg"
+              src="images/banner/Pic-2.jpg"
               alt="Infrastructure Background 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="absolute inset-0 animate-scroll-3">
             <img
-              src="/images/banner/Pic-3.jpg"
+              src="images/banner/Pic-3.jpg"
               alt="Infrastructure Background 3"
               className="w-full h-full object-cover"
             />
