@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -21,24 +23,30 @@ export default function Home() {
         {/* Scrolling Background Images */}
         <div className="absolute inset-0 opacity-50">
           <div className="absolute inset-0 animate-scroll-1">
-            <img
+            <Image
               src="images/banner/pic1.jpg"
               alt="Infrastructure Background 1"
               className="w-full h-full object-cover"
+              width={1200}
+              height={800}
             />
           </div>
           <div className="absolute inset-0 animate-scroll-2">
-            <img
+            <Image
               src="/images/banner/pic2.jpg"
               alt="Infrastructure Background 2"
               className="w-full h-full object-cover"
+              width={1200}
+              height={800}
             />
           </div>
           <div className="absolute inset-0 animate-scroll-3">
-            <img
+            <Image
               src="/images/banner/pic3.jpg"
               alt="Infrastructure Background 3"
               className="w-full h-full object-cover"
+              width={1200}
+              height={800}
             />
           </div>
         </div>
