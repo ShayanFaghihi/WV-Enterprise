@@ -16,22 +16,22 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Header/Navigation */}
+      <img src="/images/banner/pic1.jpg" alt="" />
       <Header />
-
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-700">
         {/* Scrolling Background Images */}
         <div className="absolute inset-0 opacity-50">
           <div className="absolute inset-0 animate-scroll-1">
             <Image
-              src="images/banner/pic1.jpg"
+              src="/images/projects/facility-project.jpg"
               alt="Infrastructure Background 1"
               className="w-full h-full object-cover"
               width={1200}
               height={800}
             />
           </div>
-          <div className="absolute inset-0 animate-scroll-2">
+          {/* <div className="absolute inset-0 animate-scroll-2">
             <Image
               src="/images/banner/pic2.jpg"
               alt="Infrastructure Background 2"
@@ -48,7 +48,7 @@ export default function Home() {
               width={1200}
               height={800}
             />
-          </div>
+          </div> */}
         </div>
 
         {/* Dark overlay for better text readability */}
