@@ -74,6 +74,35 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <div className="grid md:grid-cols-[auto_1fr] gap-12 mb-12">
+          <div>
+            <h3 className="font-bold mb-4 text-lg">Company Data</h3>
+            <ul className="space-y-2 text-sm opacity-80">
+              <li>UEI: Z499GXPQ99R3</li>
+              <li>CAGE CODE: 0QZT1</li>
+              <li>DUNS: 11-937-9361</li>
+              <li>ESTABLISHED: 2022</li>
+            </ul>
+            <br />
+            <h4>Address</h4>
+            <p>96 Harry S Truman, Suite 325, Largo MD 20774</p>
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-4 text-lg">NAICS Codes</h3>
+            <ul className="space-y-2 text-sm opacity-80">
+              <li>
+                541611 Admin Mgmt and General Mgmt Consulting Services (Primary)
+              </li>
+              <li>488119, Other Airport Operations</li>
+              <li>541690 Other Scientific and Tech Consulting Services</li>
+              <li>531390 Other Activities Related to Real Estate</li>
+              <li>488310 Port and Harbor Operations</li>
+              <li>488999 All Other Support Activities for Transportation</li>
+              <li>237310 Highway, Street, and Bridge Construction</li>
+            </ul>
+          </div>
+        </div>
 
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm opacity-70">
           <p>&copy; 2025 WV Development, LLC. All rights reserved.</p>

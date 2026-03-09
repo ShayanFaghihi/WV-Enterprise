@@ -77,20 +77,21 @@ export default function Home() {
               Developing infrastructure that supports critical missions.
             </h2>
             <p className="text-l md:text-xl mb-6 leading-relaxed opacity-95">
-              WV Development delivers full-spectrum infrastructure solutions —
-              from site development and transportation planning to construction,
-              environmental compliance, and regulatory approvals.
+              WV Development advances real estate, infrastructure, and economic
+              development initiatives that strengthen communities, expand
+              opportunity, and support sustainable regional growth.
             </p>
             <p className="text-l md:text-xl mb-6 leading-relaxed opacity-95">
-              Our multidisciplinary teams partner with government agencies,
-              developers, and community stakeholders to transform complex
-              challenges into infrastructure that powers operations, supports
-              growth, and improves quality of life.
+              We support governments, public agencies, developers,
+              transportation authorities, and community organizations in
+              planning, launching, and managing development and infrastructure
+              initiatives that drive long-term community impact.
             </p>
             <p className="text-l md:text-xl leading-relaxed opacity-95">
-              From airports and multimodal transit systems to commercial
-              facilities and resilient public infrastructure, we deliver results
-              that perform today and endure tomorrow.
+              We bring proven experience leading large-scale capital projects,
+              land development efforts, multimodal transportation operations,
+              and community revitalization initiatives—from strategy and
+              planning through stakeholder engagement and execution.
             </p>
           </div>
         </div>
@@ -112,60 +113,108 @@ export default function Home() {
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl md:text-2xl mb-2">
-                  Transportation Planning & Infrastructure
+                  Real Estate & Land Development Advisory
                 </CardTitle>
                 <div className="w-12 h-1 bg-primary mb-4"></div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed mb-6">
-                  Strategic planning and engineering for airports, highways,
-                  transit systems, and multimodal mobility projects that improve
-                  accessibility and operational efficiency.
+                  Site evaluation, land use strategy, development feasibility,
+                  disposition analysis, and public- private partnership
+                  structuring.
                 </CardDescription>
-                <Button variant="ghost" className="group">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
               </CardContent>
             </Card>
 
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl md:text-2xl mb-2">
-                  Real Estate Development & Master Planning
+                  Economic & Community Development Strategy
                 </CardTitle>
                 <div className="w-12 h-1 bg-primary mb-4"></div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed mb-6">
-                  End-to-end development services for commercial, municipal, and
-                  federal facilities — including feasibility, zoning, design
-                  coordination, and construction oversight.
+                  Market assessment, business attraction planning, small
+                  business ecosystem support, workforce and talent planning, and
+                  revitalization initiatives.
                 </CardDescription>
-                <Button variant="ghost" className="group">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
               </CardContent>
             </Card>
 
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl md:text-2xl mb-2">
-                  Construction & Regulatory Services
+                  Airport & Multimodal Operations Support
                 </CardTitle>
                 <div className="w-12 h-1 bg-primary mb-4"></div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed mb-6">
-                  General building construction, asphalt & paving operations,
-                  and complete regulatory navigation including permitting,
-                  compliance, and environmental approvals.
+                  Operational planning, vendor coordination, customer experience
+                  enhancement, capital program support, and
+                  stakeholder/authority engagement.
                 </CardDescription>
-                <Button variant="ghost" className="group">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+              </CardContent>
+            </Card>
+            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+              <CardHeader>
+                <CardTitle className="text-xl md:text-2xl mb-2">
+                  Infrastructure & Capital Project Assistance
+                </CardTitle>
+                <div className="w-12 h-1 bg-primary mb-4"></div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-6">
+                  Master planning support, project prioritization, feasibility
+                  studies, scheduling and phasing support, and coordination with
+                  design, engineering, and construction partners.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+              <CardHeader>
+                <CardTitle className="text-xl md:text-2xl mb-2">
+                  Permitting & Regulatory Coordination
+                </CardTitle>
+                <div className="w-12 h-1 bg-primary mb-4"></div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-6">
+                  Agency navigation, compliance alignment, community interface,
+                  and facilitation across jurisdictional approvals and review
+                  processes.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+              <CardHeader>
+                <CardTitle className="text-xl md:text-2xl mb-2">
+                  Social & Community Services Integration
+                </CardTitle>
+                <div className="w-12 h-1 bg-primary mb-4"></div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-6">
+                  Support for housing, transportation access, workforce
+                  pipelines, and services connecting physical development to
+                  resident benefit.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+              <CardHeader>
+                <CardTitle className="text-xl md:text-2xl mb-2">
+                  Construction & Implementation Support
+                </CardTitle>
+                <div className="w-12 h-1 bg-primary mb-4"></div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-6">
+                  Owner's rep support, vendor oversight, field coordination,
+                  schedule alignment, and performance tracking to maintain
+                  budget and timeline discipline.
+                </CardDescription>
               </CardContent>
             </Card>
           </div>
@@ -199,17 +248,63 @@ export default function Home() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-24 bg-muted/30">
+      <section className="relative py-24 bg-muted/30 overflow-hidden">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8 text-center">
-              "WV Development took a complex mission-critical project and
-              delivered with precision. Their coordination, regulatory
-              expertise, and execution exceeded expectations every step of the
-              way."
-            </blockquote>
-            <div className="text-center">
-              <p className="font-bold text-xl">Public Infrastructure Client</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-center">
+            Testimonials
+          </h2>
+          <div className="max-w-5xl mx-auto relative min-h-[320px] md:min-h-[360px]">
+            <div className="absolute inset-0 animate-scroll-1 flex items-center justify-center">
+              <div className="max-w-4xl mx-auto text-center">
+                <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
+                  "WV Development took a complex mission-critical project and
+                  delivered with precision. Their coordination, regulatory
+                  expertise, and execution exceeded expectations every step of
+                  the way."
+                </blockquote>
+                <div>
+                  <p className="font-bold text-xl">
+                    Public Infrastructure Client
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="absolute inset-0 animate-scroll-2 flex items-center justify-center">
+              <div className="max-w-4xl mx-auto text-center">
+                <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
+                  "This organization’s leaders approach their work with the
+                  reverence it deserved — honoring the legacies of what has
+                  stood while leading the vision for what the community could
+                  become. Their leadership on the demolition and master plan
+                  development was instrumental in transforming one of Atlanta’s
+                  most historically significant sites into a model for
+                  equitable, mixed-income development."
+                </blockquote>
+                <div>
+                  <p className="font-bold text-xl">
+                    Former Southeastern City Mayor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="absolute inset-0 animate-scroll-3 flex items-center justify-center">
+              <div className="max-w-4xl mx-auto text-center">
+                <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
+                  "Our city’s transformation didn’t happen by accident — it took
+                  leaders who understood both the complexity of urban
+                  development and the human stakes behind every project. SLV
+                  Enterprises brought a rare combination to our city. Their work
+                  on our terminal and the broader revitalization efforts their
+                  leaders led demonstrated a level of development talent that is
+                  simply not common. SLV Enterprises doesn’t just plan — they
+                  deliver, and our city is better for it."
+                </blockquote>
+                <div>
+                  <p className="font-bold text-xl">Previous City Client</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

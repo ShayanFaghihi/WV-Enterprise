@@ -21,7 +21,7 @@ export default function Header() {
   }, [isOpen]);
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img
             src="images/logos/logo.webp"
@@ -53,6 +53,13 @@ export default function Header() {
             className="text-lg hover:text-primary transition-colors"
           >
             Contact
+          </a>
+          <a
+            href="/capability.pdf"
+            target="_blank"
+            className="text-lg hover:text-primary transition-colors"
+          >
+            Capability Statement
           </a>
         </nav>
         <Button className="hidden md:flex">Get Started</Button>
@@ -163,6 +170,13 @@ export default function Header() {
                   onClick={() => setIsOpen(false)}
                 >
                   Contact
+                </a>
+                <a
+                  href="/capability.pdf"
+                  target="_blank"
+                  className="text-lg hover:text-primary transition-colors"
+                >
+                  Capability Statement
                 </a>
               </nav>
 
