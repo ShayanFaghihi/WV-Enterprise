@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Header/Navigation */}
-      <img src="/images/banner/pic1.jpg" alt="" />
       <Header />
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-700">
@@ -24,7 +23,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-50">
           <div className="absolute inset-0 animate-scroll-1">
             <Image
-              src="/images/projects/facility-project.jpg"
+              src="/images/services/airport-project.jpg"
               alt="Infrastructure Background 1"
               className="w-full h-full object-cover"
               width={1200}
