@@ -12,6 +12,64 @@ import {
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
+const SERVICES = [
+  {
+    title: "Lower Hill Redevelopment",
+    desc: " Pittsburgh, PA ($1B)",
+    src: "Lower Hill Redevelopment.jpg",
+  },
+  {
+    title: "Aerotropolis Atlanta",
+    desc: "Atlanta, GA ($2.5M EDA-funded)",
+    src: "Aerotropolis Atlanta.jpg",
+  },
+  {
+    title: "Centennial Place",
+    desc: "Techwood HOPE VI — Atlanta, GA ($150M)",
+    src: "Centennial Place.jpg",
+  },
+  {
+    title: "GA State",
+    desc: "Invest Atlanta Corridor — Atlanta, GA ($200M)",
+    src: "GA State.webp",
+  },
+  {
+    title: "Jackson-Medgar Wiley Evers Airport Study",
+    desc: "Jackson, MS ($350K)",
+    src: "Wiley Evers Airport.webp",
+  },
+  {
+    title: "Kaufmann",
+    desc: "Target Retail Corridor Revitalization — Pittsburgh, PA",
+    src: "Kaufmann.png",
+  },
+  {
+    title: "PHA",
+    desc: "Temple University Gateway — Philadelphia, PA ($130M)",
+    src: "PHA.jpg",
+  },
+  {
+    title: "Richmond International Airport Study",
+    desc: "Richmond, VA ($550K)",
+    src: "Richmond International Airport Study.jpg",
+  },
+  {
+    title: "Strip District Terminal",
+    desc: "Historic farmers market and mixed-use revitalization - Pittsburgh, PA ($62.6M)",
+    src: "Strip District Terminal.jpg",
+  },
+  {
+    title: "University Homes Redevelopment — Atlanta, GA",
+    desc: "Nation’s first federally funded public housing for African Americans, est. 1937; demolition and mixed-income master plan development, 2009",
+    src: "University Homes Redevelopment.png",
+  },
+  {
+    title: "Virginia Union University Master Plan",
+    desc: "Richmond, VA ($292M–$338M)",
+    src: "Virginia Union University Master Plan.jpeg",
+  },
+];
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -23,17 +81,17 @@ export default function Home() {
         <div className="absolute inset-0 opacity-50">
           <div className="absolute inset-0 animate-scroll-1">
             <Image
-              src="/images/services/airport-project.jpg"
-              alt="Infrastructure Background 1"
+              src="/images/services/Richmond International Airport Study.jpg"
+              alt="Richmond International Airport Study"
               className="w-full h-full object-cover"
               width={1200}
               height={800}
             />
           </div>
-          {/* <div className="absolute inset-0 animate-scroll-2">
+          <div className="absolute inset-0 animate-scroll-2">
             <Image
-              src="/images/banner/pic2.jpg"
-              alt="Infrastructure Background 2"
+              src="/images/services/Strip District Terminal.jpg"
+              alt="Historic farmers market and mixed-use"
               className="w-full h-full object-cover"
               width={1200}
               height={800}
@@ -41,13 +99,13 @@ export default function Home() {
           </div>
           <div className="absolute inset-0 animate-scroll-3">
             <Image
-              src="/images/banner/pic3.jpg"
-              alt="Infrastructure Background 3"
+              src="/images/services/Centennial Place.jpg"
+              alt="Techwood HOPE VI — Atlanta"
               className="w-full h-full object-cover"
               width={1200}
               height={800}
             />
-          </div> */}
+          </div>
         </div>
 
         {/* Dark overlay for better text readability */}
@@ -255,13 +313,15 @@ export default function Home() {
       </section>
 
       {/* Testimonial Section */}
+      {/* Testimonial Section */}
       <section className="relative py-24 bg-muted/30 overflow-hidden">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 md:mb-12">
             Testimonials
           </h2>
-          <div className="max-w-5xl mx-auto relative min-h-[320px] md:min-h-[360px]">
-            <div className="absolute inset-0 animate-scroll-1 flex items-center justify-center">
+
+          <div className="max-w-5xl mx-auto relative min-h-[520px] sm:min-h-[460px] md:min-h-[360px]">
+            <div className="absolute inset-x-0 top-20 bottom-0 md:inset-0 animate-scroll-1 flex items-start md:items-center justify-center">
               <div className="max-w-4xl mx-auto text-center">
                 <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
                   "WV Development took a complex mission-critical project and
@@ -277,7 +337,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="absolute inset-0 animate-scroll-2 flex items-center justify-center">
+            <div className="absolute inset-x-0 top-20 bottom-0 md:inset-0 animate-scroll-2 flex items-start md:items-center justify-center">
               <div className="max-w-4xl mx-auto text-center">
                 <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
                   "This organization’s leaders approach their work with the
@@ -296,7 +356,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="absolute inset-0 animate-scroll-3 flex items-center justify-center">
+            <div className="absolute inset-x-0 top-20 bottom-0 md:inset-0 animate-scroll-3 flex items-start md:items-center justify-center">
               <div className="max-w-4xl mx-auto text-center">
                 <blockquote className="text-xl md:text-3xl font-light leading-relaxed mb-8">
                   "Our city’s transformation didn’t happen by accident — it took
@@ -329,54 +389,29 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="group relative overflow-hidden rounded-lg h-[400px]">
-              <div className="absolute inset-0 opacity-50">
-                <img
-                  src="/images/services/airport-project.jpg"
-                  alt="Airport Ramp & Pavement Modernization"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end p-8">
-                <div className="text-white relative z-10">
-                  <h3 className="text-xl md:text-2xl font-bold mb-2">
-                    Airport Ramp & Pavement Modernization
-                  </h3>
-                  <p className="text-sm mb-4 opacity-90">
-                    TRANSPORTATION INFRASTRUCTURE
-                  </p>
-                  <Button variant="secondary" size="sm" className="group/btn">
-                    View Project
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
+          <div className="grid md:grid-cols-3 gap-8">
+            {SERVICES.map((item) => (
+              <div
+                key={item.title}
+                className="group relative overflow-hidden rounded-lg h-[400px]"
+              >
+                <div className="absolute inset-0 opacity-50">
+                  <img
+                    src={`/images/services/${item.src}`}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end p-8">
+                  <div className="text-white relative z-10">
+                    <h3 className="text-xl md:text-2xl font-bold mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-sm mb-4 opacity-90">{item.desc}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="group relative overflow-hidden rounded-lg h-[400px]">
-              <div className="absolute inset-0 opacity-50">
-                <img
-                  src="/images/services/facility-project.jpg"
-                  alt="Government Facility Redevelopment"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end p-8">
-                <div className="text-white relative z-10">
-                  <h3 className="text-xl md:text-2xl font-bold mb-2">
-                    Government Facility Redevelopment
-                  </h3>
-                  <p className="text-sm mb-4 opacity-90">
-                    REAL ESTATE DEVELOPMENT
-                  </p>
-                  <Button variant="secondary" size="sm" className="group/btn">
-                    View Project
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
