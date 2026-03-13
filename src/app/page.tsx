@@ -63,11 +63,6 @@ const SERVICES = [
     desc: "Nation’s first federally funded public housing for African Americans, est. 1937; demolition and mixed-income master plan development, 2009",
     src: "University Homes Redevelopment.png",
   },
-  {
-    title: "Virginia Union University Master Plan",
-    desc: "Richmond, VA ($292M–$338M)",
-    src: "Virginia Union University Master Plan.jpeg",
-  },
 ];
 
 export default function Home() {

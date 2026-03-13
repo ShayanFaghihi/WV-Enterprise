@@ -70,7 +70,12 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-lg">Contact</h3>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>Email: info@wvdevelopment.com</li>
+              <li>
+                Email:{" "}
+                <a href="mailto:info@theslvcompanies.com">
+                  info@theslvcompanies.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
