@@ -122,8 +122,14 @@ export default function Home() {
               development, construction delivery, and built environment services
               across the United States.
             </p>
-            <Button size="lg" className="text-base md:text-lg px-10 py-7">
-              Explore Our Work <ArrowRight className="ml-2 h-5 w-5" />
+            <Button
+              asChild
+              size="lg"
+              className="text-base md:text-lg px-10 py-7"
+            >
+              <a href="#projects">
+                Explore Our Work <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>
@@ -421,8 +427,10 @@ export default function Home() {
             Let's discuss how WV Development can support your infrastructure
             goals with proven delivery and expert execution.
           </p>
-          <Button size="lg" className="text-lg px-8 py-6">
-            Contact Our Team <ArrowRight className="ml-2 h-5 w-5" />
+          <Button asChild size="lg" className="text-lg px-8 py-6">
+            <a href="mailto:info@theslvcompanies.com?subject=Project Inquiry">
+              Discuss a Project <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </section>
