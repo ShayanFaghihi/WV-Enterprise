@@ -16,42 +16,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold mb-4 text-lg">Services</h3>
-            <ul className="space-y-2 text-sm opacity-80">
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Transportation Planning
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Real Estate Development
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Construction Delivery
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Regulatory & Environmental Compliance
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
             <h3 className="font-bold mb-4 text-lg">Company</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
                   About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary transition-colors">
-                  Careers
                 </a>
               </li>
               <li>
@@ -69,7 +38,7 @@ export default function Footer() {
 
           <div>
             <h3 className="font-bold mb-4 text-lg">Contact</h3>
-            <ul className="space-y-2 text-sm opacity-80">
+            <ul className="space-y-2 text-m opacity-80">
               <li>
                 Email:{" "}
                 <a href="mailto:info@theslvcompanies.com">

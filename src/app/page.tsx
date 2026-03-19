@@ -33,20 +33,25 @@ const SERVICES = [
     desc: "Invest Atlanta Corridor — Atlanta, GA ($200M)",
     src: "GA State.webp",
   },
-  {
-    title: "Jackson-Medgar Wiley Evers Airport Study",
-    desc: "Jackson, MS ($350K)",
-    src: "Wiley Evers Airport.webp",
-  },
+  // {
+  //   title: "Jackson-Medgar Wiley Evers Airport Study",
+  //   desc: "Jackson, MS ($350K)",
+  //   src: "Wiley Evers Airport.webp",
+  // },
   {
     title: "Kaufmann",
-    desc: "Target Retail Corridor Revitalization — Pittsburgh, PA",
+    desc: "Target Retail Corridor Revitalization — Pittsburgh, PA ($100M)",
     src: "Kaufmann.png",
   },
   {
     title: "PHA",
     desc: "Temple University Gateway — Philadelphia, PA ($130M)",
     src: "PHA.jpg",
+  },
+  {
+    title: "University Homes Redevelopment — Atlanta, GA ($10M)",
+    desc: "Nation’s first federally funded public housing for African Americans, est. 1937; demolition and mixed-income master plan development, 2009",
+    src: "University Homes Redevelopment.png",
   },
   {
     title: "Richmond International Airport Study",
@@ -57,11 +62,6 @@ const SERVICES = [
     title: "Strip District Terminal",
     desc: "Historic farmers market and mixed-use revitalization - Pittsburgh, PA ($62.6M)",
     src: "Strip District Terminal.jpg",
-  },
-  {
-    title: "University Homes Redevelopment — Atlanta, GA",
-    desc: "Nation’s first federally funded public housing for African Americans, est. 1937; demolition and mixed-income master plan development, 2009",
-    src: "University Homes Redevelopment.png",
   },
 ];
 
@@ -238,36 +238,7 @@ export default function Home() {
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Permitting & Regulatory Coordination
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Agency navigation, compliance alignment, community interface,
-                  and facilitation across jurisdictional approvals and review
-                  processes.
-                </CardDescription>
-              </CardContent>
-            </Card>
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Social & Community Services Integration
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Support for housing, transportation access, workforce
-                  pipelines, and services connecting physical development to
-                  resident benefit.
-                </CardDescription>
-              </CardContent>
-            </Card>
+
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl md:text-2xl mb-2">
@@ -280,6 +251,22 @@ export default function Home() {
                   Owner's rep support, vendor oversight, field coordination,
                   schedule alignment, and performance tracking to maintain
                   budget and timeline discipline.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+              <CardHeader>
+                <CardTitle className="text-xl md:text-2xl mb-2">
+                  Social & Community Services Integration
+                </CardTitle>
+                <div className="w-12 h-1 bg-primary mb-4"></div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-6">
+                  Support for housing, transportation access, workforce
+                  pipelines, and services connecting physical development to
+                  resident benefit.
                 </CardDescription>
               </CardContent>
             </Card>
