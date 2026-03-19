@@ -65,6 +65,33 @@ const SERVICES = [
   },
 ];
 
+const EXPERTIES = [
+  {
+    title: "Real Estate & Land Development Advisory",
+    desc: "Site evaluation, land use strategy, development feasibility, disposition analysis, and public- private partnership structuring.",
+  },
+  {
+    title: "Economic & Community Development Strategy",
+    desc: "Market assessment, business attraction planning, small business ecosystem support, workforce and talent planning, and revitalization initiatives.",
+  },
+  {
+    title: "Airport & Multimodal Operations Support",
+    desc: "Operational planning, vendor coordination, customer experience enhancement, capital program support, and stakeholder/authority engagement.",
+  },
+  {
+    title: "Infrastructure & Capital Project Assistance",
+    desc: "Master planning support, project prioritization, feasibility studies, scheduling and phasing support, and coordination with design, engineering, and construction partners.",
+  },
+  {
+    title: "Construction & Implementation Support",
+    desc: "Owner's rep support, vendor oversight, field coordination, schedule alignment, and performance tracking to maintain budget and timeline discipline.",
+  },
+  {
+    title: "Social & Community Services Integration",
+    desc: "Support for housing, transportation access, workforce pipelines, and services connecting physical development to resident benefit.",
+  },
+];
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -174,102 +201,25 @@ export default function Home() {
               Comprehensive infrastructure solutions tailored to mission success
             </p>
           </div>
-
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Real Estate & Land Development Advisory
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Site evaluation, land use strategy, development feasibility,
-                  disposition analysis, and public- private partnership
-                  structuring.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Economic & Community Development Strategy
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Market assessment, business attraction planning, small
-                  business ecosystem support, workforce and talent planning, and
-                  revitalization initiatives.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Airport & Multimodal Operations Support
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Operational planning, vendor coordination, customer experience
-                  enhancement, capital program support, and
-                  stakeholder/authority engagement.
-                </CardDescription>
-              </CardContent>
-            </Card>
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Infrastructure & Capital Project Assistance
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Master planning support, project prioritization, feasibility
-                  studies, scheduling and phasing support, and coordination with
-                  design, engineering, and construction partners.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Construction & Implementation Support
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Owner's rep support, vendor oversight, field coordination,
-                  schedule alignment, and performance tracking to maintain
-                  budget and timeline discipline.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
-              <CardHeader>
-                <CardTitle className="text-xl md:text-2xl mb-2">
-                  Social & Community Services Integration
-                </CardTitle>
-                <div className="w-12 h-1 bg-primary mb-4"></div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base leading-relaxed mb-6">
-                  Support for housing, transportation access, workforce
-                  pipelines, and services connecting physical development to
-                  resident benefit.
-                </CardDescription>
-              </CardContent>
-            </Card>
+            {EXPERTIES.map((item) => (
+              <Card
+                key={item.title}
+                className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl"
+              >
+                <CardHeader>
+                  <CardTitle className="text-xl md:text-2xl mb-2">
+                    {item.title}
+                  </CardTitle>
+                  <div className="w-12 h-1 bg-primary mb-4"></div>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-base leading-relaxed mb-6">
+                    {item.desc}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
