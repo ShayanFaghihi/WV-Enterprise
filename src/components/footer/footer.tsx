@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-[#000000] text-white py-16">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <img
               src="/images/logos/logo-white.webp"
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold mb-4 text-lg">Contact</h3>
+            <h3 className="font-extrabold mb-4 text-lg">Contact</h3>
             <ul className="space-y-2 text-m opacity-80">
               <li>
                 Email:{" "}
@@ -48,7 +48,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="grid md:grid-cols-[auto_1fr] gap-12 mb-12">
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <h3 className="font-bold mb-4 text-lg">Company Data</h3>
             <ul className="space-y-2 text-sm opacity-80">
@@ -62,9 +62,9 @@ export default function Footer() {
             <p>96 Harry S Truman, Suite 325, Largo MD 20774</p>
           </div>
 
-          <div>
+          <div className="md:col-span-2">
             <h3 className="font-bold mb-4 text-lg">NAICS Codes</h3>
-            <ul className="space-y-2 text-sm opacity-80">
+            <ul className="space-y-2 text-sm opacity-80 md:whitespace-nowrap">
               <li>
                 541611 Admin Mgmt and General Mgmt Consulting Services (Primary)
               </li>
