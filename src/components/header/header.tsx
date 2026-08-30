@@ -43,7 +43,7 @@ export default function Header() {
           <div className="container mx-auto px-6 flex justify-between items-center transition-all duration-300">
             <div className="flex items-center gap-2">
               <img
-                src="images/logos/logo.webp"
+                src="/images/logos/logo.webp"
                 alt="WV Development Logo"
                 className={`transition-all duration-300 ${
                   isScrolled ? "h-12 md:h-16" : "h-14 md:h-20"
@@ -55,30 +55,30 @@ export default function Header() {
                 isScrolled ? "gap-6" : "gap-8"
               }`}
             >
-              <a
-                href="#services"
+              <Link
+                href="/#services"
                 className="text-lg hover:text-primary transition-colors"
               >
                 Services
-              </a>
-              <a
-                href="#projects"
+              </Link>
+              <Link
+                href="/#projects"
                 className="text-lg hover:text-primary transition-colors"
               >
                 Projects
-              </a>
-              <a
-                href="#about"
+              </Link>
+              <Link
+                href="/#about"
                 className="text-lg hover:text-primary transition-colors"
               >
                 About
-              </a>
-              <a
-                href="#contact"
+              </Link>
+              <Link
+                href="/#contact"
                 className="text-lg hover:text-primary transition-colors"
               >
                 Contact
-              </a>
+              </Link>
               <Link
                 href="/blog"
                 className="text-lg hover:text-primary transition-colors"
