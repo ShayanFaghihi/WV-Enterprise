@@ -3,28 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 0.0.0.0 --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "tinacms dev -c \"next dev -H 0.0.0.0 --turbopack\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start",
     "lint": "bunx tsc --noEmit && next lint",
     "format": "bunx biome format --write"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
+    "@tailwindcss/typography": "^0.5.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.556.0",
     "next": "^15.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-grab": "latest",
     "same-runtime": "^0.0.1",
     "tailwind-merge": "^3.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "react-grab": "latest"
+    "tinacms": "^3.12.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@eslint/eslintrc": "^3.3.1",
+    "@tinacms/cli": "^2.6.1",
     "@types/node": "^20.17.50",
     "@types/react": "^18.3.22",
     "@types/react-dom": "^18.3.7",

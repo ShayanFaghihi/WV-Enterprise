@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Button } from "../ui/button";
 
 export default function Header() {
@@ -78,6 +79,12 @@ export default function Header() {
               >
                 Contact
               </a>
+              <Link
+                href="/blog"
+                className="text-lg hover:text-primary transition-colors"
+              >
+                Blog
+              </Link>
               <a
                 href="/capability.pdf"
                 target="_blank"
@@ -210,6 +217,13 @@ export default function Header() {
                     >
                       Contact
                     </a>
+                    <Link
+                      href="/blog"
+                      className="text-lg hover:text-primary transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Blog
+                    </Link>
                     <a
                       href="/capability.pdf"
                       target="_blank"

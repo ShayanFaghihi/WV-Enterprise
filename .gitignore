@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# tinacms (regenerated on every build; tina/tina-lock.json is committed)
+/tina/__generated__/
+/public/admin/
+
 # production
 /build
 
