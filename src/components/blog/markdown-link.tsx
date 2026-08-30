@@ -19,6 +19,6 @@ function MarkdownLink({
 
 const markdownComponents = {
   a: MarkdownLink,
-} as Components<{}>;
+} as Components<Record<string, never>>;
 
 export default markdownComponents;

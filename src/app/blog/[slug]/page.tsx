@@ -88,7 +88,6 @@ export default async function BlogPostPage({
           </h1>
 
           {post.thumbnail && (
-            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={post.thumbnail}
               alt={post.title}

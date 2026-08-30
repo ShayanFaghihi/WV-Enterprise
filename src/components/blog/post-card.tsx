@@ -29,7 +29,6 @@ export default function BlogPostCard({
     >
       <div className="w-full overflow-hidden bg-muted" style={{ height: 224 }}>
         {post.thumbnail ? (
-          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={post.thumbnail}
             alt={post.title}
