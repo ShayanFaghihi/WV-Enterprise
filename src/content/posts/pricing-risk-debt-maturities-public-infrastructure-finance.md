@@ -1,10 +1,10 @@
 ---
-title: "How to Price Risk and Manage Debt Maturities in Public Infrastructure Finance"
-slug: "pricing-risk-debt-maturities-public-infrastructure-finance"
-date: "2026-08-29"
-thumbnail: "/images/services/Richmond International Airport Study.jpg"
-seoTitle: "Pricing Risk & Debt Maturities in Infrastructure Finance"
-metaDescription: "A working framework for finance leads and P3 teams: price risk correctly, align debt maturities to revenue cycles, and stress-test a capital stack."
+title: How to Price Risk and Manage Debt Maturities in Public Infrastructure Finance
+slug: pricing-risk-debt-maturities-public-infrastructure-finance
+date: 2026-08-29T00:00:00.000Z
+thumbnail: /images/posts/edge2edge-media-uKlneQRwaxY-unsplash.jpg
+seoTitle: Pricing Risk & Debt Maturities in Infrastructure Finance
+metaDescription: 'A working framework for finance leads and P3 teams: price risk correctly, align debt maturities to revenue cycles, and stress-test a capital stack.'
 ---
 
 Most public infrastructure projects don't fail at the ribbon cutting. They fail quietly, months or years earlier, when a finance team locks in a capital stack without fully accounting for what the asset will actually cost to carry — and what it won't yet generate.
@@ -29,15 +29,15 @@ Debt maturity alignment is where many infrastructure finance structures quietly 
 
 Revenue-generating assets make this especially consequential. Airports, transit facilities, and mixed-use developments don't produce full revenue on day one. They ramp. Aerotropolis-type developments and airport-adjacent real estate take years to attract anchor tenants, stabilize occupancy, and generate the ground lease or concession income that services debt. Phasing capital project debt around those ramp-up timelines — shorter maturities on early construction tranches, longer maturities on revenue-dependent components — is standard discipline in well-structured deals. It is not standard practice.
 
-![Aerial view of the Aerotropolis Atlanta development](/images/services/Aerotropolis%20Atlanta.jpg)
+![Aerial view of the Aerotropolis Atlanta development](/images/posts/jakub-zerdzicki-Vg96IZTFubo-unsplash.jpg)
 
 ### What Misalignment Costs in Practice
 
 When maturities don't track asset life and revenue cycles, the options narrow fast:
 
-- Costly restructuring that renegotiates terms under pressure, rarely on favorable terms
-- Draw-downs on reserves that were sized for operations, not financing gaps
-- Political pressure to cut service levels or delay capital renewal to cover debt service
+* Costly restructuring that renegotiates terms under pressure, rarely on favorable terms
+* Draw-downs on reserves that were sized for operations, not financing gaps
+* Political pressure to cut service levels or delay capital renewal to cover debt service
 
 None of these are hypothetical. They are the documented outcomes when pricing risk in public infrastructure projects stops at construction cost and ignores the full debt lifecycle.
 
