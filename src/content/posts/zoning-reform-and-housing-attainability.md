@@ -1,10 +1,10 @@
 ---
-title: "Zoning Reform and Housing Attainability: What Local Governments Need to Know"
-slug: "zoning-reform-and-housing-attainability"
-date: "2026-08-28"
-thumbnail: "/images/services/PHA.jpg"
-seoTitle: "Zoning Reform & Housing Attainability | WV Development"
-metaDescription: "Zoning reform creates permission, not housing. See what it actually takes to turn rezoned parcels into attainable housing units that get built."
+title: 'Zoning Reform and Housing Attainability: What Local Governments Need to Know'
+slug: zoning-reform-and-housing-attainability
+date: 2026-08-28T00:00:00.000Z
+thumbnail: /images/posts/priyansh-patidar-XVyrHtQdNlk-unsplash.jpg
+seoTitle: Zoning Reform & Housing Attainability | WV Development
+metaDescription: 'Zoning reform creates permission, not housing. See what it actually takes to turn rezoned parcels into attainable housing units that get built.'
 ---
 
 Most zoning reform efforts stall somewhere between adoption and impact. Municipalities rezone parcels, revise density allowances, or streamline permitting — and then wait for housing to follow. It rarely does, not at the scale or affordability level intended.
@@ -37,7 +37,7 @@ Public-private partnership housing structures are the mechanism that bridges the
 
 Getting this sequence right is what our [featured projects](/#projects) reflect across markets.
 
-![Centennial Place mixed-income housing in Atlanta](/images/services/Centennial%20Place.jpg)
+![Centennial Place mixed-income housing in Atlanta](/images/posts/scott-graham-5fNmWej4tAA-unsplash.jpg)
 
 ## Stakeholder Engagement as a Structural Project Requirement, Not an Afterthought
 
