@@ -1,10 +1,10 @@
 ---
-title: "Over-Density Reversal: How Communities Are Rebalancing Growth and Infrastructure"
-slug: "over-density-reversal-rebalancing-growth-infrastructure"
-date: "2026-08-30"
-thumbnail: "/images/services/Lower Hill Redevelopment.jpg"
-seoTitle: "Over-Density Reversal: Rebalancing Growth & Infrastructure"
-metaDescription: "A working framework for diagnosing over-density, financing the fix, and rebalancing land use and infrastructure without displacing residents."
+title: 'Over-Density Reversal: How Communities Are Rebalancing Growth and Infrastructure'
+slug: over-density-reversal-rebalancing-growth-infrastructure
+date: 2026-08-30T00:00:00.000Z
+thumbnail: /images/posts/artful-homes-_-mJjhpcS_g-unsplash.jpg
+seoTitle: 'Over-Density Reversal: Rebalancing Growth & Infrastructure'
+metaDescription: 'A working framework for diagnosing over-density, financing the fix, and rebalancing land use and infrastructure without displacing residents.'
 ---
 
 The neighborhoods that grew fastest are often the hardest to fix. Infrastructure built for one density level gets stretched past its limits, land use patterns calcify, and the communities that need relief end up bearing the cost of delays. Planners and developers aren't short on ambition — they're short on a clear sequence for what to do first.
@@ -23,9 +23,9 @@ The term sounds technical, but the work is practical. It means taking an honest 
 
 Land use rebalancing under this framework typically works across three parallel tracks:
 
-- **Density recalibration** — adjusting zoning and use mix where buildings or populations strain shared infrastructure
-- **Infrastructure realignment** — sequencing capital improvements to match corrected density targets
-- **Community stability protection** — embedding anti-displacement commitments into planning documents and financing structures before the first shovel moves
+* **Density recalibration** — adjusting zoning and use mix where buildings or populations strain shared infrastructure
+* **Infrastructure realignment** — sequencing capital improvements to match corrected density targets
+* **Community stability protection** — embedding anti-displacement commitments into planning documents and financing structures before the first shovel moves
 
 Done right, over-density reversal is a planning and financing discipline as much as a physical one. It requires coordinated expertise across real estate, infrastructure, and community development from the earliest stages — not brought in to manage consequences after decisions are already made.
 
@@ -43,7 +43,7 @@ Market assessments keep both processes grounded. Demand projections anchored in 
 
 WV Development brings our [expertise](/#services) to every stage of this diagnostic work, from initial site review through investment-ready feasibility.
 
-![Aerial view of the University Homes redevelopment in Atlanta](/images/services/University%20Homes%20Redevelopment.png)
+![Aerial view of the University Homes redevelopment in Atlanta](/images/posts/owen-cannon-6TLCSMj8zgE-unsplash.jpg)
 
 ## Financing the Fix: P3 Structures, Federal Programs, and Capital Sequencing
 
