@@ -65,6 +65,31 @@ const SERVICES = [
   },
 ];
 
+const COMPANIES = [
+  {
+    name: "SLV Consulting",
+    href: "http://slvconsulting.biz/",
+    logo: "/images/companies/slv-consulting.png",
+    tagline: "Leadership • Strategy • Transformation • Technology Enablement",
+    desc: "Developing leaders, aligning organizations, and modernizing operations to deliver measurable performance outcomes.",
+  },
+  {
+    name: "SLV Denmar",
+    href: "https://slvdenmar.com/",
+    logo: "/images/companies/slv-denmar.png",
+    tagline: "High-Impact Events • Strategic Engagements • Flawless Execution",
+    desc: "Designing and delivering high-visibility events that strengthen relationships, support public engagement, and create meaningful experiences for government, corporate, and community audiences.",
+  },
+  {
+    name: "SLV Enterprises",
+    href: "https://theslvcompanies.com",
+    logo: "/images/companies/slv-enterprises.png",
+    tagline:
+      "Strategic Consulting • Economic & Real Estate Development • Enterprise Solutions",
+    desc: "The parent enterprise uniting our family of businesses—delivering integrated strategic consulting, economic development, and mission-critical solutions to government and corporate clients nationwide.",
+  },
+];
+
 const EXPERTIES = [
   {
     title: "Real Estate & Land Development Advisory",
@@ -349,6 +374,54 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Explore Our Companies Section */}
+      <section id="companies" className="py-24 bg-secondary/30">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Explore Our Companies
+            </h2>
+            <p className="text-l md:text-2xl text-muted-foreground max-w-2xl mx-auto">
+              Explore our family of businesses to learn more about each
+              company's specialized services, capabilities, and industry
+              expertise. Click below to visit each division.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {COMPANIES.map((company) => (
+              <a
+                key={company.name}
+                href={company.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block h-full"
+              >
+                <Card className="h-full border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
+                  <CardHeader className="items-center text-center">
+                    <img
+                      src={company.logo}
+                      alt={company.name}
+                      className="h-14 w-auto object-contain mb-4"
+                    />
+                    <CardTitle className="text-xl md:text-2xl mb-2">
+                      {company.name}
+                    </CardTitle>
+                    <p className="text-xs font-semibold tracking-wide text-primary uppercase">
+                      {company.tagline}
+                    </p>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-base leading-relaxed text-center">
+                      {company.desc}
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              </a>
             ))}
           </div>
         </div>
