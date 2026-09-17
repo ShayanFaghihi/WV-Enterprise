@@ -86,7 +86,7 @@ export default function Header() {
                 Blog
               </Link>
               <a
-                href="/capability.pdf"
+                href="/uploads/capability-statement.pdf"
                 target="_blank"
                 className="text-lg hover:text-primary transition-colors"
               >
@@ -225,7 +225,7 @@ export default function Header() {
                       Blog
                     </Link>
                     <a
-                      href="/capability.pdf"
+                      href="/uploads/capability-statement.pdf"
                       target="_blank"
                       className="text-lg hover:text-primary transition-colors"
                     >
