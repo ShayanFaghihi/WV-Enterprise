@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev -H 0.0.0.0 --turbopack\"",
-    "build": "tinacms build && next build",
-    "start": "tinacms build && next start",
+    "build": "tinacms build --skip-cloud-checks && next build",
+    "start": "tinacms build --skip-cloud-checks && next start",
     "lint": "bunx tsc --noEmit && next lint",
     "format": "bunx biome format --write"
   },
