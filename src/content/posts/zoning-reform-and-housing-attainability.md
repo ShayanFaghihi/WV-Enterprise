@@ -1,10 +1,10 @@
 ---
-title: "Zoning Reform and Housing Attainability: What Local Governments Need to Know"
-slug: "zoning-reform-and-housing-attainability"
-date: "2026-08-28"
-thumbnail: "/images/services/PHA.jpg"
-seoTitle: "Zoning Reform & Housing Attainability | WV Development"
-metaDescription: "Zoning reform creates permission, not housing. See what it actually takes to turn rezoned parcels into attainable housing units that get built."
+title: 'Zoning Reform and Housing Attainability: What Local Governments Need to Know'
+slug: zoning-reform-and-housing-attainability
+date: 2026-08-28T00:00:00.000Z
+thumbnail: /images/posts/pexels-jakubzerdzicki-31370888.jpg
+seoTitle: Zoning Reform & Housing Attainability | WV Development
+metaDescription: 'Zoning reform creates permission, not housing. See what it actually takes to turn rezoned parcels into attainable housing units that get built.'
 ---
 
 Most zoning reform efforts stall somewhere between adoption and impact. Municipalities rezone parcels, revise density allowances, or streamline permitting — and then wait for housing to follow. It rarely does, not at the scale or affordability level intended.
@@ -36,8 +36,6 @@ Disposition analysis applies the same discipline to publicly held parcels. Munic
 Public-private partnership housing structures are the mechanism that bridges the gap when public budgets cannot fund full delivery. On projects like the $130M Temple University Gateway/PHA initiative in Philadelphia and the $150M Centennial Place HOPE VI redevelopment in Atlanta, aligning private capital with public goals required P3 structures built around feasibility analysis, not policy preference. The [HUD public housing programs](https://www.hud.gov/helping-americans/public-housing-programs) that fund efforts like these carry their own eligibility and phasing requirements worth mapping early.
 
 Getting this sequence right is what our [featured projects](/#projects) reflect across markets.
-
-![Centennial Place mixed-income housing in Atlanta](/images/services/Centennial%20Place.jpg)
 
 ## Stakeholder Engagement as a Structural Project Requirement, Not an Afterthought
 
