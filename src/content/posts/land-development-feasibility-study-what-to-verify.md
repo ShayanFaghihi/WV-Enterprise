@@ -2,6 +2,7 @@
 title: How to Read a Land Development Feasibility Study Before You Commit Capital
 slug: land-development-feasibility-study-what-to-verify
 date: 2026-10-03T14:34:22.604Z
+thumbnail: /images/posts/pexels-rdne-7947838.jpg
 seoTitle: 'Land Development Feasibility Study: What to Verify Before You Commit'
 metaDescription: Know which numbers to challenge in a land development feasibility study before signing. A decision-maker's checklist from advisors with 20+ major projects delivered.
 ---
